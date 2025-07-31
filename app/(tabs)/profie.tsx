@@ -14,7 +14,7 @@ import * as Haptics from "expo-haptics";
 import { useProfile } from "@/context/ProfileContext";
 import { useLanguage } from "@/context/LanguageContext";
 import { languages } from "@/constants/languages";
-import Colors from "@/constants/colors";
+import Colors from "@/constants/Colors";
 import { formatCurrency } from "@/utils/formatters";
 
 export default function ProfileScreen() {

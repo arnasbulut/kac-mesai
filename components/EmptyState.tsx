@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, useColorScheme } from "react-native";
 import { History } from "lucide-react-native";
-import Colors from "@/constants/colors";
+import Colors from "@/constants/Colors.ts";
 
 interface EmptyStateProps {
   icon: "history";

@@ -3,7 +3,7 @@ import { Clock, History, User } from "lucide-react-native";
 import React from "react";
 import { useColorScheme } from "react-native";
 import { useLanguage } from "@/context/LanguageContext";
-import Colors from "@/constants/colors";
+import Colors from "@/constants/Colors";
 
 export default function TabLayout() {
   const { t } = useLanguage();

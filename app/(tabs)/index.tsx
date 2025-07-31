@@ -19,7 +19,7 @@ import { useProfile } from "@/context/ProfileContext";
 import { useHistory } from "@/context/HistoryContext";
 import { useLanguage } from "@/context/LanguageContext";
 import { TranslationKey } from "@/constants/languages";
-import Colors from "@/constants/colors";
+import Colors from "@/constants/Colors";
 import { formatCurrency } from "@/utils/formatters";
 import { TimeUnit, TIME_UNITS, convertHoursToUnit, getPluralUnit } from "@/constants/timeUnits";
 

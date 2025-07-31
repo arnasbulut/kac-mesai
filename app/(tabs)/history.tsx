@@ -14,7 +14,7 @@ import * as Haptics from "expo-haptics";
 import { useHistory, HistoryItem } from "@/context/HistoryContext";
 import { useLanguage } from "@/context/LanguageContext";
 import { TranslationKey } from "@/constants/languages";
-import Colors from "@/constants/colors";
+import Colors from "@/constants/Colors";
 import { formatCurrency, formatDate } from "@/utils/formatters";
 import EmptyState from "@/components/EmptyState";
 import { TimeUnit, TIME_UNITS, convertHoursToUnit, getPluralUnit } from "@/constants/timeUnits";

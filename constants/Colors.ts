@@ -1,6 +1,4 @@
-import { ColorSchemeName } from "react-native";
-
-const colors = {
+export const colors = {
   light: {
     primary: "#2f95dc",
     text: "#000000",

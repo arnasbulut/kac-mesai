@@ -16,7 +16,7 @@ import { Check, X } from "lucide-react-native";
 import * as Haptics from "expo-haptics";
 import { useProfile } from "@/context/ProfileContext";
 import { useLanguage } from "@/context/LanguageContext";
-import Colors from "@/constants/colors";
+import Colors from "@/constants/Colors";
 import { CURRENCIES } from "@/constants/currencies";
 
 export default function EditProfileScreen() {
