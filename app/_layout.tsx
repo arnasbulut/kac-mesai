@@ -3,9 +3,9 @@ import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import React, { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { ProfileProvider } from "@/context/ProfileContext";
-import { HistoryProvider } from "@/context/HistoryContext";
-import { LanguageProvider, useLanguage } from "@/context/LanguageContext";
+import { ProfileProvider } from "../context/ProfileContext";
+import { HistoryProvider } from "../context/HistoryContext";
+import { LanguageProvider, useLanguage } from "../context/LanguageContext";
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();

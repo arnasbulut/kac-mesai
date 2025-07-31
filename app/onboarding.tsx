@@ -14,10 +14,10 @@ import {
 import { useRouter } from "expo-router";
 import { ArrowRight, DollarSign, Clock } from "lucide-react-native";
 import * as Haptics from "expo-haptics";
-import { useProfile } from "@/context/ProfileContext";
-import { useLanguage } from "@/context/LanguageContext";
-import Colors from "@/constants/colors";
-import { CURRENCIES } from "@/constants/currencies";
+import { useProfile } from "../context/ProfileContext";
+import { useLanguage } from "../context/LanguageContext";
+import Colors from "../constants/colors";
+import { CURRENCIES } from "../constants/currencies";
 
 export default function OnboardingScreen() {
   const { updateProfile } = useProfile();
