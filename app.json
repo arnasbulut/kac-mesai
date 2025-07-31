@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "kac-mesai",
+    "name": "Kaç Mesai?",
     "slug": "kac-mesai",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,6 +8,7 @@
     "scheme": "kacmesai",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+	"assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
