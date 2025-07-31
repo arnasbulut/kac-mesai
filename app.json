@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Kaç Mesai?",
-    "slug": "kac-mesai",
+    "name": "Kac Mesai",
+    "slug": "kacmesaiapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,15 +14,14 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "app.kac-mesai"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.kac-mesai",
+      "package": "com.kacmesaiapp.android",
       "permissions": [
         "android.permission.VIBRATE"
       ]
