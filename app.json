@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.kac-mesai",
+      "package": "app.arnaslabs.kacmesai",
       "permissions": [
         "android.permission.VIBRATE"
       ]
