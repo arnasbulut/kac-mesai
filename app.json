@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Kaç Mesai?",
+    "name": "Kac Mesai?",
     "slug": "kac-mesai",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -34,7 +34,7 @@
       [
         "expo-router",
         {
-          "origin": "https://rork.com/"
+          "origin": "https://github.com/arnasbulut/kac-mesai/"
         }
       ]
     ],
